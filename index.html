@@ -6,7 +6,7 @@
     <meta name="description" content=""/>
     <meta name="keywords" content=""/>
 
-    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
     <link rel="canonical" href="https://zeguro.com/" />
 
     <title>Zeguro</title>
@@ -23,12 +23,34 @@
     <meta name="twitter:description"   content="" />
     <meta name="twitter:title"         content="" />
 
-    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
 
-    <link rel='stylesheet' id="bootstrap"  href='/css/bootstrap.css'>
-    <link rel='stylesheet' id="main-style"  href='/css/style.css'>
-    <script type='text/javascript' src='/js/bootstrap.js'></script>
+    <link rel='stylesheet' id="bootstrap"  href='css/bootstrap.css'>
+    <link rel='stylesheet' id="main-style"  href='css/style.css'>
+    <link rel='stylesheet' id="main-responsive" href='css/responsive.css'>
+    <script type="text/javascript" src="js/1.11.3.jquery.min.js">
+</script>
+    <script type='text/javascript' src='js/bootstrap.js'></script>
+    <script>
+      $(document).ready(function() {
+			
+        $('.nav-icon').click(function() {
+        $('body').toggleClass('open');
+        $('.nav-icon').toggleClass('open');
+    });
+    $('.main_menu ul li span').click(function(){
+        $(this).closest('li').toggleClass('active');
+        $(this).closest('li').siblings().removeClass('active');
+        $(this).closest('li').find('ul').slideToggle();
+        $(this).closest('li').siblings().find('ul').slideUp();
+    });
+
+	
+	});
+
+    </script>
+    
 </head>
 <body>
 
@@ -36,37 +58,40 @@
         <div class="nav_wrapper" id="nav_wrapper">
             <div class="container">
                 <div class="row">
+                    <div class="nav-icon"><span></span><span></span><span></span></div>
                     <div class="col-lg-3 logo">
-                        <img src="/img/logo.jpg" />
+                        <img src="img/logo.jpg" />
                     </div>
                     <div class="col-lg-9 main_menu">
                         <ul class="main_nav">
                             <li><a href="#">What We Do</a>
+                                <span></span>
                                 <ul class="green">
-                                    <li><a href="/small-medium-enterprises">Small / Medium Enterprises</a></li>
-                                    <li><a href="/large-enterprise">Large Enterprise</a></li>
-                                    <li><a href="/channel-partners">Channel Partners</a></li>
+                                    <li><a href="small-medium-enterprises">Small / Medium Enterprises</a></li>
+                                    <li><a href="large-enterprise">Large Enterprise</a></li>
+                                    <li><a href="channel-partners">Channel Partners</a></li>
                                 </ul>
                             </li>
                             <li><a href="#">Insurance</a>
+                                <span></span>
                                 <ul class="orange">
-                                    <li><a href="/coverages">Coverages</a></li>
-                                    <li><a href="/claims">Claims</a></li>
+                                    <li><a href="coverages">Coverages</a></li>
+                                    <li><a href="claims">Claims</a></li>
                                 </ul>
                             </li>
                             <li><a href="#">About Us</a>
+                                <span></span>
                                 <ul class="blue">
-                                    <li><a href="/team">Team</a></li>
-                                    <li><a href="/news">News</a></li>
-                                    <li><a href="/careers">Careers</a></li>
+                                    <li><a href="team">Team</a></li>
+                                    <li><a href="news">News</a></li>
+                                    <li><a href="careers">Careers</a></li>
                                 </ul>
                             </li>
-                            <li><a href="/contact-us">Contact Us</a></li>
+                            <li><a href="contact-us">Contact Us</a></li>
                         </ul>
-
                         <ul class="main_aux_nav">
-                            <a href="/sign-up"><li>Sign up</li></a>
-                            <a href="/login"><li class="login_button">Login</li></a>
+                            <li><a href="sign-up">Sign up</a></li>
+                            <li class="login_button"><a href="login">Login</a></li>
                         </ul>
                     </div>
                 </div>
@@ -85,7 +110,7 @@
             <div class="container">
                 <div class="section centered covered inner_content_wrapper">
                     <h2>We've Got You Covered</h2>
-                    <img src="/img/cyber_guard.jpg" />
+                    <img src="img/cyber_guard.jpg" />
                     <p>Zeguro is your Virtual Cybersecurity Officer. We are on the job 24/7. Our end-to-end business protection makes it easy for you, your employees and your IT team to mitigate cyber risk.</p>
                     <div class="timeline_left">
                         <div class="security" id="security">
@@ -134,19 +159,19 @@
                 <p>Zeguro empowers you to withstand the unknown.</p>
                 <ul class="empowerment">
                     <li>
-                        <img src="/img/clouds.jpg" />
+                        <img src="img/clouds.jpg" />
                         Cyber Risk Monitoring with Mitigation Recommendations
                     </li>
                     <li>
-                        <img src="/img/desk.jpg" />
+                        <img src="img/desk.jpg" />
                         Targeted Employee Training on Security Best Practices
                     </li>
                     <li>
-                        <img src="/img/web.jpg" />
+                        <img src="img/web.jpg" />
                         Automated Web Vulnerability Testing
                     </li>
                     <li>
-                        <img src="/img/compliance.jpg" />
+                        <img src="img/compliance.jpg" />
                         Compliance for Cyber Regulations
                     </li>
                 </ul>
@@ -163,19 +188,19 @@
                 <p>Zeguro's Insurance policy is designed specifically for small to medium enterprises, and is automatically tailored to your business. One size does not fit all - pay for only the coverage you need, knowing that you get the best coverage at the best price.</p>
                 <ul class="empowerment">
                     <li>
-                        <img src="/img/code.jpg" />
+                        <img src="img/code.jpg" />
                         Data Loss from Cyber Attacks
                     </li>
                     <li>
-                        <img src="/img/money.jpg" />
+                        <img src="img/money.jpg" />
                         Business Interruption & Extortion
                     </li>
                     <li>
-                        <img src="/img/umbrella.jpg" />
+                        <img src="img/umbrella.jpg" />
                         Coverage Against Lawsuits
                     </li>
                     <li>
-                        <img src="/img/wand.jpg" />
+                        <img src="img/wand.jpg" />
                         Payment Fraud
                     </li>
                 </ul>
@@ -183,8 +208,8 @@
                 <button>See Our Comprehensive List of Coverages</button>
 
                 <ul class="logos">
-                    <li><img src="/img/boiler.jpg" /></li>
-                    <li><img src="/img/munich.jpg" /></li>
+                    <li><img src="img/boiler.jpg" /></li>
+                    <li><img src="img/munich.jpg" /></li>
                 </ul>
 
                 <p class="bottom_p">Zeguro's insurance products are offered with the financial security of Hartford Steam Boiler insurance company & Munic Re America Corperation (A++/A ratings by A.M. Best)</p>
@@ -217,7 +242,7 @@
 
         <div class="section testimonial centered inner_content_wrapper">
             <h1>What People Are Saying</h1>
-            <img src="/img/quote.jpg" />
+            <img src="img/quote.jpg" />
             <p>Lorum ipsum dolor sit amet. Lorum ipsum dolor sit amet. Lorum ipsum dolor sit amet. Lorum ipsum dolor sit amet. Lorum ipsum dolor sit amet. Lorum ipsum dolor sit amet. Lorum ipsum dolor sit amet. Lorum ipsum dolor sit amet. Lorum ipsum dolor sit amet. </p>
             <span class="attributor">FIRSTNAME LASTNAME, COMPANY</span>
         </div>
@@ -229,21 +254,21 @@
             <h1>Latest News</h1>
 
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 news_in">
                     <div class="news_module_wrapper">
                         <div class="module_header">Blog</div>
                         <div class="module_content">Add Title Copy from Blog Post and Copy Here <br> <a href="#">Read More</a></div>
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4 news_in">
                     <div class="news_module_wrapper">
                         <div class="module_header">Press</div>
                         <div class="module_content">Add Title Copy from Blog Post and Copy Here <br> <a href="#">Read More</a></div>
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4 news_in">
                     <div class="news_module_wrapper">
                         <div class="module_header">Video</div>
                         <div class="module_content">Add Title Copy from Blog Post and Copy Here <br> <a href="#">Read More</a></div>
@@ -271,13 +296,13 @@
             <h1>Investment Partners</h1>
             <ul class="logos">
                 <li>
-                    <img src="/img/sparkland.jpg" />
+                    <img src="img/sparkland.jpg" />
                 </li>
                 <li>
-                    <img src="/img/plug.jpg" />
+                    <img src="img/plug.jpg" />
                 </li>
                 <li>
-                    <img src="/img/socialcapital.jpg" />
+                    <img src="img/socialcapital.jpg" />
                 </li>
             </ul>
         </div>
@@ -295,7 +320,7 @@
                     <div class="module col-md-2">
                         <ul>
                             <li>
-                                <img src="/img/logo_bw.jpg" />
+                                <img src="img/logo_bw.jpg" />
                             </li>
                         </ul>
                     </div>
@@ -303,7 +328,7 @@
                     <div class="module col-md-2">
                         <ul>
                             <li>
-                                <img src="/img/map_pin.jpg" />
+                                <img src="img/map_pin.jpg" />
                                 123 Mission St, Level 15<br /> San Fransisco, CA 94111
                             </li>
                         </ul>
@@ -312,7 +337,7 @@
                     <div class="module col-md-2">
                         <ul>
                             <li>
-                                <img src="/img/phone.jpg" />
+                                <img src="img/phone.jpg" />
                                 <a href="tel:8559800660">855.980.0660</a>
                             </li>
                         </ul>
@@ -321,7 +346,7 @@
                     <div class="module col-md-2">
                         <ul>
                             <li>
-                                <img src="/img/email.jpg" />
+                                <img src="img/email.jpg" />
                                 <a href="mailto:hello@zeguro.com">hello@zeguro.com</a>
                             </li>
                         </ul>
@@ -330,9 +355,9 @@
                     <div class="module col-md-2">
                         <ul>
                             <li>
-                                <a href="https://www.facebook.com/zeguroinc/"><img src="/img/fb_logo.jpg" /></a>
-                                <a href="https://www.linkedin.com/company/7965652/"><img src="/img/twitter_logo.jpg" /></a>
-                                <a href="https://twitter.com/Zeguroinc/"><img src="/img/linkedin_logo.jpg" /></a>
+                                <a href="https://www.facebook.com/zeguroinc/"><img src="img/fb_logo.jpg" /></a>
+                                <a href="https://www.linkedin.com/company/7965652/"><img src="img/twitter_logo.jpg" /></a>
+                                <a href="https://twitter.com/Zeguroinc/"><img src="img/linkedin_logo.jpg" /></a>
                             </li>
                         </ul>
                     </div>
@@ -395,7 +420,7 @@
 
         </div>
 
-
+    
     <script type="text/javascript">
 
         // When the user scrolls the page, execute myFunction
@@ -483,6 +508,7 @@
             }
         }
     </script>
+
 
 </body>
 </html>

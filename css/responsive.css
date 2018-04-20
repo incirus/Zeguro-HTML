@@ -1,0 +1,104 @@
+@media (max-width: 1250px){
+    .main_aux_nav {padding: 0;}
+    .main_menu {padding: 0;}
+    
+}
+@media (max-width: 1220px){
+    .container {max-width: 100% !important;}
+    .main_nav li {padding: 15px 10px;min-width: inherit;float: left;}
+    .nav_wrapper li {padding: 15px 10px;}
+    .nav_wrapper li:hover ul {width: 100% !important;left: 0;padding: 10px 5px;}
+    .nav_wrapper li ul li a {font-size: 14px;line-height: 18px;}
+    .nav_wrapper {padding: 20px 15px;}
+    .hero_wrapper {padding: 50px 15px 0;}
+    .inner_content_wrapper {max-width: 875px;}
+    .timeline_left {max-width: 100%;width: 52%;padding: 0 35px 0 0;}
+    .timeline_right {max-width: 100%;width: 48%;}
+    .empowerment li {width: 25%;max-width: 100% !important;float: left;}
+    .section img {padding: 0;display:  block;margin:  0 auto;}
+    .bullets_left {max-width: 100%;width: 50%;}
+    .bullets_right {max-width: 100%;width: 50%;}
+    .secure_more h5 {width: auto;}
+    .section_wrapper {padding: 0 15px;}
+    .inner_content__container_wrapper {max-width: 100%;}
+}
+@media (max-width:991px){
+    .logo {float: left;width: 18%;padding: 7px 10px 0 0;}
+    .logo img {width: 100%;}
+    .main_menu {float: left;width: 82%;}
+    .main_nav li {padding: 15px 5px;}
+    .main_menu li > a,.main_nav li a {font-size: 14px;}
+    .nav_wrapper li ul li {padding: 5px 0;}
+    .nav_wrapper li:hover ul li {line-height: 18px;}
+    .nav_wrapper li ul li a {font-size: 12px;line-height: 14px;}
+    .empowerment li {font-size: 18px;}
+    .section_wrapper {font-size: 18px;}
+    .news_in {padding: 0 15px 10px;} 
+    .bullets_left p,.bullets_right p {min-height: 115px;}
+    .footer_wrapper {margin: 0;}
+    .module {width: 33.3% !important;max-width:  100% !important;flex: inherit;-webkit-flex: inherit;-o-flex: inherit;-moz-flex: inherit;-ms-flex: inherit;}
+    .container.footer.contact ul li img {margin-top: -13px;}
+    .container.footer {padding: 30px 15px;}
+    .footer ul li a {font-size: 14px;}
+    .footer ul {margin: 0;}
+    .container.footer.contact ul li {padding-bottom: 30px;}
+    .footer ul li {padding-bottom: 5px;}
+}
+@media (max-width:767px){
+    .nav-icon {display: block;}
+    .open .main_menu {display: block;padding: 15px 0;}
+    .nav_wrapper li a{display: block;padding: 7px 0;}
+    .logo {float: none;width: auto;padding: 0;}
+    .main_menu {display: none;float: none;width: 100%;position: absolute;top: 100px;left: 0;background: #fff;transition: all ease-in-out 0.3s;-o-transition: all ease-in-out 0.3s;-ms-transition: all ease-in-out 0.3s;-webkit-transition: all ease-in-out 0.3s;-moz-transition: all ease-in-out 0.3s;}
+    .nav_wrapper ul,.nav_wrapper ul li {float: none;width: 100%;display: block;padding: 0;margin: 0 auto;}
+    .nav_wrapper li:hover > ul {display: none;position: static;padding: 0 !important;border: none;}
+    .main_menu li:hover > a{font-family: GraphieLight;}
+    .login_button {margin: 0 auto;}
+    .hero_wrapper h1 {font-size: 30px;}
+    .circles {font-size: 34px;}
+    .covered h5 {font-size: 20px;}
+    .section p {font-size: 18px;}
+    .covered {min-height: 930px;}
+    .empowerment li {width: 49%;text-align:  center;padding: 10px 10px;vertical-align:  top;float: none;}
+    .section {padding: 30px 15px;}
+    .section h1 {font-size: 26px;}
+    .investment_partners .logos li {width: 33.3%;float: left;}
+    .logos li img {max-width: 100%;}
+    .bullets_left,.bullets_right {width: 100%;float: none;text-align: left;}
+    .secure_more .left {padding-right: 15px;}
+    .secure_more .right {float: left;border-left: none;border-right: 3px solid #fff;padding-left: 0;padding-right: 15px;}
+    .bullets_left p,.bullets_right p {min-height: 65px;padding-left: 53px !important;padding-top: 21px !important;margin-bottom: 5px;display:  block;width:  100%;font-size: 20px !important;}
+    .section_wrapper {padding: 0;}
+    .module {width: 50% !important;}
+    .container.footer.contact ul li a {font-size: 12px;}
+    .main_menu li span{width: 30px; height: 30px; background: #f00; position: absolute; right: 10px; top:0px; z-index: 999;}
+    .main_menu li span:after{content: '\+';position: absolute;right: 4px;top:0px;z-index: 999;font-size: 25px;line-height: 30px;color: #000;}
+    .main_menu li.active span:after{content: '\-';right: 6px;font-size: 35px;}
+}
+@media (max-width:599px){
+    .hero_wrapper h1 {font-size: 24px;}
+    .hero_wrapper h2 {font-size: 18px;}
+    .section p {font-size: 16px;padding: 0;}
+    .covered h5 {padding: 0;}
+    .circles {display: none;}
+    .timeline_left {float: none;width: 100%;padding:  0;text-align:  left;}
+    .covered {margin:  0;min-height:  inherit;padding: 30px 0 20px !important;}
+    .timeline_right {float: none;width: 100%;}
+    .empowerment li {float: none;width: 100%;padding: 10px 0;}
+    
+}
+@media (max-width:479px){
+    .hero_wrapper h1 {font-size: 16px;}
+    .hero_wrapper h2 {font-size: 14px;}
+    .hero_wrapper button {font-size: 12px;}
+    .section h2 {font-size: 24px;}
+    .section p {font-size: 14px;}
+    .logos li {float: none;width: 100%;text-align: center;}
+    .logos li img {margin: 0 auto;}
+    .bullets_left p,.bullets_right p {font-size: 14px !important;}
+    .module {width: 100% !important;float: none;}
+    .container.footer.contact ul li {text-align: center;padding-bottom: 10px;}
+    .footer ul li,.footer p {text-align: center;}
+    .container.footer.contact ul li img {margin-top: 0;float: none;display: inline-block;}
+
+}
