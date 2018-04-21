@@ -736,3 +736,10 @@ p.lessspace{letter-spacing: 0;}
 }
 .s2s h5{margin-bottom: 0;}
 .s2s p{margin-top: 0;padding-top: 5px;}
+.empowerment img {
+    display: block;
+    clear: both;
+    margin: 0 auto 15px;
+}
+/*hide for v1*/
+.hideforv1{display: none !important;}
