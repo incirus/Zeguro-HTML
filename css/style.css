@@ -214,6 +214,7 @@ ul.emptyli{padding:0  !important;}
 .logo {
     padding-left:0px;
 }
+.logo img{max-width: 222px;}
 
 .hero_wrapper {
     background-image: url('../img/hero_bg.jpg');
