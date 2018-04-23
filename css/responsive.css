@@ -1,7 +1,7 @@
 @media (max-width: 1250px){
     .main_aux_nav {padding: 0;}
     .main_menu {padding: 0;}
-    
+
 }
 @media (max-width: 1220px){
     .container {max-width: 100% !important;}
@@ -33,7 +33,7 @@
     .nav_wrapper li ul li a {font-size: 12px;line-height: 14px;}
     .empowerment li {font-size: 18px;}
     .section_wrapper {font-size: 18px;}
-    .news_in {padding: 0 15px 10px;} 
+    .news_in {padding: 0 15px 10px;}
     .bullets_left p,.bullets_right p {min-height: 115px;}
     .footer_wrapper {margin: 0;}
     .module {width: 33.3% !important;max-width:  100% !important;flex: inherit;-webkit-flex: inherit;-o-flex: inherit;-moz-flex: inherit;-ms-flex: inherit;}
@@ -85,10 +85,11 @@
     .covered {margin:  0;min-height:  inherit;padding: 30px 0 20px !important;}
     .timeline_right {float: none;width: 100%;}
     .empowerment li {float: none;width: 100%;padding: 10px 0;}
-    
+    .hero_wrapper,.secure_more {min-height: 490px;}
+
 }
 @media (max-width:479px){
-    .hero_wrapper h1 {font-size: 16px;}
+    .hero_wrapper h1 {font-size: 24px;}
     .hero_wrapper h2 {font-size: 14px;}
     .hero_wrapper button {font-size: 12px;}
     .section h2 {font-size: 24px;}

@@ -136,6 +136,7 @@ ul.emptyli{padding:0  !important;}
     width: 100px;
     transform: translate(-50%, 0);
 }
+
 .nav_wrapper li ul.green::before {
     background: #87bd30;
 }
@@ -156,6 +157,7 @@ ul.emptyli{padding:0  !important;}
 }
 .nav_wrapper li ul.darkblue::before {
     background: #26249e;
+    width: 70px;
 }
 
 .nav_wrapper li ul.blue li a:hover {
@@ -221,7 +223,7 @@ ul.emptyli{padding:0  !important;}
     background-size: cover;
     background-position: center bottom;
     background-repeat: no-repeat;
-    min-height: 557px;
+    min-height: 590px;
     text-align: center;
     margin: 0 auto;
     padding-top:90px;
@@ -273,7 +275,7 @@ ul.emptyli{padding:0  !important;}
 }
 
 .section img {
-    padding: 15px;
+    padding: 15px 15px 15px 0;
 }
 
 .centered {
@@ -319,7 +321,7 @@ ul.emptyli{padding:0  !important;}
     justify-content: center;
     align-items: center;
     min-height: 850px;
-    margin-bottom: 75px;
+    margin-bottom: 50px;
 }
 
 .covered h5 {
@@ -538,6 +540,7 @@ button:hover {
 
 .bottom_piece {
     border-bottom: 0px;
+    padding-top: 10px !important;
 }
 
 .news_module_wrapper {
@@ -654,6 +657,7 @@ button:hover {
 
 .opacity {
     opacity: 1 !important;
+    transition: opacity 1s;
 }
 
 .circles {
@@ -703,10 +707,10 @@ button:hover {
 .container.footer.contact ul li {
     font-size: 11px;
     line-height: 15px;
-    font-family: GraphieSemiBold;
+    font-family: GraphieLight;
     text-transform: none;
 }
-.footer.contact ul li a{color:#000000;font-family: GraphieSemiBold;}
+.footer.contact ul li a{color:#000000;font-family: GraphieLight;}
 .container.footer.contact ul li img {
     float:left;
     margin-top:-30px;
@@ -741,6 +745,7 @@ p.lessspace{letter-spacing: 0;}
     display: block;
     clear: both;
     margin: 0 auto 15px;
+    max-height: 90px;
 }
 /*hide for v1*/
 .hideforv1{display: none !important;}
