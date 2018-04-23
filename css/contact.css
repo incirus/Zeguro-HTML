@@ -23,7 +23,7 @@
     display: inline-block;
     position: relative;
     text-align: center;
-    
+
 }
 .get_in img {
     max-width: 100%;
@@ -56,21 +56,25 @@
     margin: 0 0 17px;
 }
 .contact .bootstrap-select button {
-    background: none !important;
+    background: #f4f4f4 !important;
     font-size: 21px;
     color: #000000;
     font-family: GraphieSemiBold !important;
     text-transform: uppercase;
     outline: none !important;
-    border: 2px #c80da0 solid !important;
+    border: 2px #f4f4f4 solid !important;
     box-shadow: none;
     margin:  0;
     padding: 0 20px;
     height:  57px;
     line-height:  57px;
 }
+.btn-group.bootstrap-select.dropup.show button {
+    background: #fff !important;
+    border: 2px #c80da0 solid !important;
+}
 .contact .bootstrap-select button:hover {
-   background: none !important; 
+   background: none !important;
 }
 .contact .bootstrap-select .dropdown-toggle:focus,.contact .bootstrap-select.btn-group .dropdown-menu li a span.text:focus,.contact .bootstrap-select.btn-group .dropdown-menu li a span.text:active {
     outline: none !important;border: none;
@@ -95,7 +99,7 @@
 .contact .bootstrap-select.btn-group .dropdown-menu li a span.text:hover {
     color: #c80da0;
 	text-decoration: none;
-	
+
 }
 .contact .bootstrap-select.btn-group .dropdown-menu li:focus {
    outline: none;
@@ -103,7 +107,7 @@
 }
 .contact .bootstrap-select.btn-group .dropdown-menu {
     top: -3px !IMPORTANT;
-    border: #c0c4c9 1px solid !important;
+    border: #c0c4c9 0px solid !important;
     border-top: none !important;
     background: #f4f4f4 !important;
     border-radius:  0;
@@ -112,7 +116,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    
+
 }
 .contact_left form ul > li {margin: 0 0 4px;line-height:  0;}
 .contact_left form ul > li input {
@@ -122,7 +126,7 @@
     background: #f4f4f4 !important;
     font-size: 21px;
     color: #000000;
-    padding: 5px 20px; 
+    padding: 5px 20px;
 }
 .contact_left form ul > li input:focus {
 	outline: none !important;
@@ -130,13 +134,13 @@
 }
 .contact_left form ul > li > ul {
     margin: 0 -15px;
-    
+
 }
 .contact .bootstrap-select.btn-group .dropdown-menu li a {
 	text-decoration: none;
 }
 .contact_left form ul > li > ul > li {
-    
+
 }
 .contact_left form ul > li textarea {
     width: 100%;
@@ -159,7 +163,7 @@
 	line-height: 17px;
 	margin: 0;
 	font-family: GraphieLight !important;
-	
+
 }
 .submit {
 	font-size: 15px;
@@ -184,7 +188,7 @@
     padding: 26px 50px;
 }
 .contact_right_in {
-	
+
 padding: 15px 0 5px;
 }
 .san {
@@ -255,34 +259,7 @@ padding: 15px 0 5px;
 .check_in button {
 	font-size: 15px;
 	letter-spacing:  0;
-	background: #9c1f9e;
-
 }
 .check_in button:hover {
 	background: #26249f;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

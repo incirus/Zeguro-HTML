@@ -9,6 +9,29 @@ $(document).ready(function() {
         $(this).closest('li').find('ul').slideToggle();
         $(this).closest('li').siblings().find('ul').slideUp();
     });
+
+ $('.has-tooltip-top').ariaTooltip({
+    responsive: [
+
+      {
+        breakpoint: 1,
+        position: 'top',
+        translateY: -1.75,
+        fadeSpeed: 100,
+        modifierClass: 'tooltip_top',
+        translateX: 0
+      },
+      {
+        breakpoint: 768,
+        position: 'top',
+        translateY: -1.75,
+        fadeSpeed: 100,
+        modifierClass: 'tooltip_top',
+        translateX: 1
+      },
+    ]
+  });
+
 });
 
 // When the user scrolls the page, execute myFunction

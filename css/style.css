@@ -223,7 +223,7 @@ ul.emptyli{padding:0  !important;}
     background-size: cover;
     background-position: center bottom;
     background-repeat: no-repeat;
-    min-height: 590px;
+    min-height: 620px;
     text-align: center;
     margin: 0 auto;
     padding-top:90px;
@@ -705,12 +705,12 @@ button:hover {
 }
 
 .container.footer.contact ul li {
-    font-size: 11px;
+    font-size: 12px;
     line-height: 15px;
-    font-family: GraphieLight;
+    font-family: GraphieSemiBold;
     text-transform: none;
 }
-.footer.contact ul li a{color:#000000;font-family: GraphieLight;}
+.footer.contact ul li a{color:#000000;font-family: GraphieSemiBold;}
 .container.footer.contact ul li img {
     float:left;
     margin-top:-30px;
@@ -747,5 +747,55 @@ p.lessspace{letter-spacing: 0;}
     margin: 0 auto 15px;
     max-height: 90px;
 }
+.has-tooltip-top{font-weight: bold;text-decoration: underline;color:#000;}
+.has-tooltip-top:hover{color:#000;}
+a:hover .show_hide {
+    display: block;
+}
+.show_hide {
+    padding: 28px 20px 28px 28px;
+    border: 2px solid #e3e3e3;
+    box-shadow: 1px 2px 30px 0px #edebeb;
+    width: 345px;
+    background: #fafafa;
+    text-align: left;
+    border-radius:  5px;
+    max-width:  100%;
+}
+.show_hide:after {
+    content: '';
+    position: absolute;
+    bottom: -31px;
+    left: 50%;
+    background: url(../img/arrow_icon.png) no-repeat;
+    width: 49px;
+    height: 31px;
+    transform:translate(-60%);
+    /*
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 25px solid  #fafafa;
+    box-shadow: 1px 4px 30px 2px #fafafa;
+*/
+}
+
+.show_hide span {
+    font-family: GraphieLight;
+    display: inline-block;
+    color: #000000;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 0 0 10px;
+}
+.show_hide span b {
+    display: inline-block;
+    font-family: GraphieSemiBold !important;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.form-control:focus {
+    border-color: #c80da0;
+        box-shadow: 0 0 0 0.2rem rgba(200, 13, 160, 0.75);
+    }
 /*hide for v1*/
 .hideforv1{display: none !important;}
