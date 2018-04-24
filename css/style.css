@@ -440,7 +440,7 @@ button:hover {
 }
 
 .full_cta button:hover {
-    background-color: transparent;
+    background-color: #ff05a1 !important;
     border:2px solid #ff05a1 !important;
     color: #fff;
 }
@@ -798,4 +798,5 @@ a:hover .show_hide {
         box-shadow: 0 0 0 0.2rem rgba(200, 13, 160, 0.75);
     }
 /*hide for v1*/
-.hideforv1{display: none !important;}
+.hideforv1,
+.bottom_piece .row{display: none !important;}
