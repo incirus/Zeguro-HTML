@@ -102,7 +102,7 @@
                <form>
                   <ul>
                    <li>
-                  <select class="selectpicker">
+                  <select class="selectpicker" name="topic">
   <option>HOW CAN WE HELP?</option>
   <option>General Inquiry</option>
   <option>Technical Support</option>
@@ -114,23 +114,23 @@
                       <li>
                         <ul class="row">
                           <li class="col-lg-6"><div class="form-group">
-                    <input type="email" placeholder="FIRST NAME" class="form-control" id="pwd">
+                    <input type="text" name="firstName" placeholder="FIRST NAME" class="form-control" id="pwd">
                   </div></li>
                            <li class="col-lg-6"><div class="form-group">
-                    <input type="email" placeholder="LAST NAME" class="form-control" id="pwd">
+                    <input type="text" name="lastName" placeholder="LAST NAME" class="form-control" id="pwd">
                   </div></li>
                             <li class="col-lg-6"><div class="form-group">
-                    <input type="email" placeholder="EMAIL ADDRESS" class="form-control" id="pwd">
+                    <input type="email" name="email" placeholder="EMAIL ADDRESS" class="form-control" id="pwd">
                   </div></li>
                            <li class="col-lg-6"><div class="form-group">
-                    <input type="number" placeholder="PHONE NUMBER*" class="form-control" id="pwd">
+                    <input type="number" name="phone" placeholder="PHONE NUMBER*" class="form-control" id="pwd">
                   </div></li>
                         </ul>
 
                       </li>
                       <li>
                   <div class="form-group">
-                    <textarea placeholder="MESSAGE..." ></textarea>
+                    <textarea name="message" placeholder="MESSAGE..." ></textarea>
                   </div>
                   </li>
                       <li class="clearfix">
@@ -300,6 +300,7 @@
     <script type="text/javascript" src="js/popper.min.js"></script>
     <script type='text/javascript' src='js/bootstrap.js'></script>
     <script type='text/javascript' src='js/bootstrap-select.js'></script>
+    <script type="text/javascript" src="js/hubspot-form-integration.js"></script>
     <script type='text/javascript' src='js/script.js'></script>
 </body>
 </html>
